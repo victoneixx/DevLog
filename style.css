@@ -1,0 +1,62 @@
+/* RESET SIMPLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO GERAL */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    line-height: 1.6;
+}
+
+/* CONTEÚDO CENTRAL (IGUAL NOTCH.NET) */
+header,
+main {
+    width: 800px;
+    margin: 40px auto;
+}
+
+/* TÍTULO DO SITE */
+header h1 {
+    font-size: 48px;
+    font-weight: normal;
+}
+
+/* MENU */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* POSTS */
+.post {
+    margin-top: 60px;
+}
+
+.post h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 14px;
+    color: #777;
+}
+
+.post p {
+    margin-top: 20px;
+}
